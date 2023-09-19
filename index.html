@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicias MyN</title>
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- MI CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Toastify -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+<body class="container">
+    <h1 class="text-center">Nuestras Delicias</h1> 
+    <hr>
+    <div id="contenedorProductos" class="row"></div>
+    <!-- CARRITO DE COMPRAS -->
+    <hr>
+    <h2>Carrito de compras</h2>
+    <h3>El total de la compra es de <span id="total"></span></h3>
+    <button class="btn btn-warning" id="verCarrito">Ver Carrito</button>
+    <button class="btn btn-danger" id="vaciarCarrito">Vaciar Carrito</button>
+    <button class="btn btn-success" id="finalizarCompra">Finalizar Compra</button>
+
+
+    <div id="contenedorCarrito" class="row"></div>
+        
+
+    <!-- TOASTIFY -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <!-- SWEET ALERT -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <!-- JS PROPIO -->
+    <script src="main.js"></script>
+</body>
+</html>

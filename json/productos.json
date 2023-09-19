@@ -1,0 +1,11 @@
+[
+    {"id":1, "nombre":"Bomba Frutilla", "precio": 100, "img": "/img/bombafrutilla.jpg"},
+    {"id":2, "nombre":"Lemon Pie", "precio": 100, "img": "/img/lemonpie.jpg"},
+    {"id":3, "nombre":"Durazno", "precio": 100, "img": "/img/durazno.jpg"},
+    {"id":4, "nombre":"Oreo", "precio": 100, "img": "/img/oreo.jpg"},
+    {"id":5, "nombre":"Brownie", "precio": 100, "img": "/img/brownie.jpg"},
+    {"id":6, "nombre":"Duo Verano", "precio": 100, "img": "/img/FrambuesaFrutilla.jpg"},
+    {"id":7, "nombre":"Lemon y Cabsha", "precio": 100, "img": "/img/lemonCabsha.jpg"},
+    {"id":8, "nombre":"Mix Delicias", "precio": 100, "img": "/img/mixCombinado.jpg"}
+    
+]

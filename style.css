@@ -1,0 +1,11 @@
+.card{
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+}
+
+
+.btn:hover {
+    background-color: rgb(233, 137, 252);
+}
+
